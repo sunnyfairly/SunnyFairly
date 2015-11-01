@@ -1,0 +1,18 @@
+.c1header {
+	background-image: url('http://7-themes.com/data_images/out/54/6955893-blue-sunny-sky.jpg');
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: center;
+    background-size: 1300px 200px;
+    background-color: #CCCCCC;
+	border-bottom: 3px;
+	border-color: #0000FF;
+	height: 200px;
+	padding: 10px 0 2px 140px;
+	font-size: 20pt;
+	color: white;
+	float: bottom;
+}
+.def{
+	font-size: 12px;
+}

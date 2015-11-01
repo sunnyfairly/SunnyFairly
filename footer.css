@@ -1,0 +1,12 @@
+.c1footer {
+	background-image: url('http://www.imfdb.org/images/thumb/c/c2/BobaFett-StarWars2.jpg/600px-BobaFett-StarWars2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: center;
+    background-size: 1300px 200px;
+    background-color: #CCCCCC;
+    height: 150px;
+	padding: 20px 0 30px 140px;
+	font-size: 8pt;
+	float: bottom;
+}

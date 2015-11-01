@@ -1,0 +1,89 @@
+body{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.meat{
+	width: 1000px;
+	margin: auto;
+  padding: 0;
+  font-size: 8pt;
+  overflow: auto;
+}
+
+.call-to-action1 {
+    background-image: url('http://img2.wikia.nocookie.net/__cb20120928215348/starwars/images/thumb/a/a9/BobaFett_Sarlaac.jpg/500px-BobaFett_Sarlaac.jpg');
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: right;
+    background-size: 300px 175px;
+    color: white;
+  height: 120px;
+  width: 245px;
+  margin: 0 25px 0 0;
+  border: 10px solid #CCCCCC;
+  background-color: #EFEFEF;
+  padding: 25px;
+  font-size: 8pt;
+  overflow: auto;
+  float: left;
+}
+
+.call-to-action2 {
+    background-image: url('http://static.srcdn.com/slir/w786-h409-q90-c786:409/wp-content/uploads/Boba-Fett-Movie-2017-Star-Wars-Anthology.jpg');
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: center;
+    background-size: 300px 175px;
+    color: blue;
+  height: 120px;
+  width: 245px;
+  margin: 0 25px 0 0;
+  border: 10px solid #CCCCCC;
+  background-color: #EFEFEF;
+  padding: 25px;
+  font-size: 8pt;
+  overflow: auto;
+  float: left;
+}
+.call-to-action3 {
+    background-image: url('http://static.srcdn.com/slir/w620-h320-q90-c620:320/wp-content/uploads/boba-fett-star-wars-episode-2-attack-clones.jpg');
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: right;
+    background-size: 300px 175px;
+    color: red;  
+  height: 120px;
+  width: 245px;
+  margin-top: 0;
+  margin-right: 0;
+  border: 10px solid #CCCCCC;
+  padding: 25px;
+  font-size: 8pt;
+  overflow: auto;
+  float: right;
+}
+
+.call-to-action h2 {
+  margin-top: 0;
+margin-left: 2px;
+  background: #AAFFAA;
+  border: 2px solid #00AA00;
+  color: #005500;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 7px;
+  float: left;
+}
+a.button2 {
+  margin-top: 2px;  
+  margin-left: 2px;
+  background: #AAFFAA;
+  border: 2px solid #00AA00;
+  color: #005500;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 7px;
+  float: left;
+}
