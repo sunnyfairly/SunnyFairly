@@ -1,3 +1,25 @@
+/*Header only*/
+.c1header {
+    background-image: url('http://blogs.channel4.com/liam-dutton-on-weather/wp-content/uploads/sites/27/2015/05/sun_sky_g_wp.jpg');
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: center;
+    background-size: 1300px 200px;
+    background-color: #CCCCCC;
+  border-bottom: 3px;
+  border-color: #0000FF;
+  height: 200px;
+  padding: 10px 0 2px 140px;
+  font-size: 20pt;
+  color: white;
+  float: bottom;
+}
+.def{
+  font-size: 12px;
+}
+
+
+/*Body Text and Boxes*/
 body{
   border: 0;
   margin: 0;
@@ -8,7 +30,7 @@ body{
 	width: 1000px;
 	margin: auto;
   padding: 0;
-  font-size: 8pt;
+  font-size: 10pt;
   overflow: auto;
 }
 
@@ -86,4 +108,18 @@ a.button2 {
   text-decoration: none;
   padding: 7px;
   float: left;
+}
+
+/*Footer Only*/
+.c1footer {
+  background-image: url('http://www.imfdb.org/images/thumb/c/c2/BobaFett-StarWars2.jpg/600px-BobaFett-StarWars2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: center;
+    background-size: 1300px 200px;
+    background-color: #CCCCCC;
+    height: 150px;
+  padding: 20px 0 30px 140px;
+  font-size: 8pt;
+  float: bottom;
 }
