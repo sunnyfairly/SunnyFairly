@@ -72,7 +72,7 @@ body{
 }
 
 .call-to-action3 {
-    background-image: url('images/ADlogo.jpg');
+    background-image: url('images/staffconcert.jpg');
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-position: right;
@@ -88,6 +88,10 @@ body{
   font-size: 8pt;
   overflow: auto;
   float: right;
+}
+.call-to-action3.link {
+  border: 0px;
+  padding: 1px;
 }
 
 /*This button needs fill the entire box, but is still just a wee button. need to figure that out*/
