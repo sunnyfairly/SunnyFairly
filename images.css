@@ -5,3 +5,18 @@
 	float: right;
 	overflow: auto;
 }
+.sunnybottles {
+	height: 220px;
+	width: 200px;
+	margin: 0 20px 10px 0;
+	float: left;
+	overflow: auto;
+}
+
+.sunnycartoon {
+	height: 220px;
+	width: 200px;
+	margin: 0 20px 10px 0;
+	float: left;
+	overflow: auto;
+}

@@ -8,7 +8,7 @@
     background-color: #CCCCCC;
   border-bottom: 3px;
   border-color: #0000FF;
-  height: 200px;
+  height: 100px;
   padding: 10px 0 2px 140px;
   font-size: 20pt;
   color: yellow;
@@ -34,6 +34,7 @@ body{
   overflow: auto;
 }
 
+/*some pics of mine*/
 .call-to-action1 {
     background-image: url('images/SunnyRekerrds.jpg');
     background-repeat: no-repeat;
@@ -44,7 +45,7 @@ body{
   height: 120px;
   width: 245px;
   margin: 0 25px 0 0;
-  border: 10px solid #CCCCCC;
+  border: 2px solid #CCCCCC;
   background-color: #EFEFEF;
   padding: 25px;
   font-size: 12pt;
@@ -61,16 +62,17 @@ body{
     color: blue;
   height: 120px;
   width: 245px;
-  margin: 0 25px 0 0;
-  border: 10px solid #CCCCCC;
+  margin: 0 25px 0 ;
+  border: 2px solid #CCCCCC;
   background-color: #EFEFEF;
   padding: 25px;
   font-size: 8pt;
   overflow: auto;
   float: left;
 }
+
 .call-to-action3 {
-    background-image: url('images/staffconcert.jpg');
+    background-image: url('images/ADlogo.jpg');
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-position: right;
@@ -79,47 +81,39 @@ body{
   height: 120px;
   width: 245px;
   margin-top: 0;
+  margin-left: 0; 
   margin-right: 0;
-  border: 10px solid #CCCCCC;
+  border: 2px solid #CCCCCC;
   padding: 25px;
   font-size: 8pt;
   overflow: auto;
   float: right;
 }
 
-.call-to-action h2 {
-  margin-top: 0;
-  margin-left: 2px;
-  background: #AAFFAA;
-  border: 2px solid #00AA00;
-  color: #005500;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 7px;
-  float: bottom;
-}
+/*This button needs fill the entire box, but is still just a wee button. need to figure that out*/
 a.button2 {
-  margin-top: 2px;  
-  margin-left: 2px;
+  margin: 100px 90px 0px 90px;
   background: transparent;
   border: 2px transparent #00AA00;
-  color: #005500;
+  color: #0000FF;
   font-weight: bold;
   text-decoration: none;
-  padding: 7px;
-  float: right;
+  
+  float: none;
 }
 
 /*Footer Only*/
 .c1footer {
-  background-image: url('http://www.imfdb.org/images/thumb/c/c2/BobaFett-StarWars2.jpg/600px-BobaFett-StarWars2.jpg');
+  background-image: url('http://blogs.channel4.com/liam-dutton-on-weather/wp-content/uploads/sites/27/2015/05/sun_sky_g_wp.jpg');
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-position: center;
     background-size: 1300px 200px;
     background-color: #CCCCCC;
-    height: 150px;
-  padding: 20px 0 30px 140px;
-  font-size: 8pt;
-  float: bottom;
+    height: 100px;
+    color: white;
+  padding: 80px 0px 5px 1250px;
+  font-size: 2pt;
+  float: right;
+  overflow: auto;
 }
