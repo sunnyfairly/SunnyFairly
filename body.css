@@ -30,12 +30,12 @@ body{
 	width: 1000px;
 	margin: auto;
   padding: 0;
-  font-size: 10pt;
+  font-size: 12pt;
   overflow: auto;
 }
 
 /*some pics of mine*/
-.call-to-action1 {
+.box1 {
     background-image: url('images/SunnyRekerrds.jpg');
     background-repeat: no-repeat;
     background-attachment: inherit;
@@ -53,7 +53,7 @@ body{
   float: left;
 }
 
-.call-to-action2 {
+.box2 {
     background-image: url('images/Blackandwhitegroup.jpg');
     background-repeat: no-repeat;
     background-attachment: inherit;
@@ -71,7 +71,7 @@ body{
   float: left;
 }
 
-.call-to-action3 {
+.box3 {
     background-image: url('images/staffconcert.jpg');
     background-repeat: no-repeat;
     background-attachment: inherit;
