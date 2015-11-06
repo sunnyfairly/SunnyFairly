@@ -26,12 +26,22 @@ body{
   padding: 0;
 }
 
-.meat{
-	width: 1000px;
-	margin: auto;
-  padding: 0;
-  font-size: 12pt;
-  overflow: auto;
+  /*Row of Buttons*/
+  .boxrow {
+    width: 1000px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    overflow: auto;
+
+}
+  .meat{
+  	width: 1000px;
+  	margin: auto;
+    padding: 0;
+    font-size: 12pt;
+    overflow: auto;
 }
 
 /*some pics of mine*/
@@ -92,14 +102,13 @@ body{
 
 /*This button needs fill the entire box, but is still just a wee button. need to figure that out*/
 a.button2 {
-  margin: 100px 90px 0px 90px;
-  background: transparent;
-  border: 2px transparent #00AA00;
-  color: #0000FF;
+  margin: 12px;
+  background-color: transparent;
+  border: 3px white;
+  color: white;
   font-weight: bold;
   text-decoration: none;
-
-  float: none;
+  float: left;
 }
 
 /*Footer Only*/
