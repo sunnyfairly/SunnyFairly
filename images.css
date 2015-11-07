@@ -1,3 +1,6 @@
+/* This CSS is for all picture positioning on all pages*/
+
+/* Main Page: */
 .sunnyNAM {
 	height: 260px;
 	width: 240px;
@@ -12,7 +15,6 @@
 	float: left;
 	overflow: auto;
 }
-
 .ADlogo {
 	height: 200px;
 	width: 220px;
@@ -26,4 +28,37 @@
 	margin: 20px 0px 10px 10px;
 	float: right;
 	overflow: auto;
+}
+
+
+/* Glass Page: */
+.picsrow1 {
+  height: 220px;
+  width: 265px;
+  margin: 10px 50px 0 0;
+  border: 2px solid #CCCCCC;
+  background-color: #EFEFEF;
+  padding: 0px;
+  overflow: auto;
+  float: left;
+}
+.picsrow2{
+  height: 220px;
+  width: 265px;
+  margin: 10px 50px 0 50px;
+  border: 2px solid #CCCCCC;
+  background-color: #EFEFEF;
+  padding: 0px;
+  overflow: auto;
+  float: left;
+}
+.picsrow3 {
+  height: 220px;
+  width: 265px;
+  margin: 10px 0 0 0;
+  border: 2px solid #CCCCCC;
+  background-color: #EFEFEF;
+  padding: 0px;
+  overflow: auto;
+  float: right;
 }

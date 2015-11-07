@@ -87,7 +87,7 @@ body{
     background-attachment: inherit;
     background-position: right;
     background-size: 300px 175px;
-    color: red;  
+  color: red;  
   height: 120px;
   width: 245px;
   margin-top: 0;
@@ -102,7 +102,7 @@ body{
 
 /*This button needs fill the entire box, but is still just a wee button. need to figure that out*/
 a.button2 {
-  margin: 12px;
+  margin: 12px 50px 12px 60px;
   background-color: transparent;
   border: 3px white;
   color: white;
@@ -110,9 +110,13 @@ a.button2 {
   text-decoration: none;
   float: left;
 }
+a.button2.last {
+  margin-right: 60px;
+  float: right;
+}
 
 /*Footer Only*/
-.c1footer {
+.footer {
   background-image: url('http://blogs.channel4.com/liam-dutton-on-weather/wp-content/uploads/sites/27/2015/05/sun_sky_g_wp.jpg');
     background-repeat: no-repeat;
     background-attachment: inherit;
