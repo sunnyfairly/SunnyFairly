@@ -35,7 +35,7 @@
 .picsrow1 {
   height: 220px;
   width: 265px;
-  margin: 10px 50px 0 0;
+  margin: 10px 50px 10px 0;
   border: 2px solid #CCCCCC;
   background-color: #EFEFEF;
   padding: 0px;
@@ -45,7 +45,7 @@
 .picsrow2{
   height: 220px;
   width: 265px;
-  margin: 10px 50px 0 50px;
+  margin: 10px 50px 10px 50px;
   border: 2px solid #CCCCCC;
   background-color: #EFEFEF;
   padding: 0px;
@@ -55,7 +55,7 @@
 .picsrow3 {
   height: 220px;
   width: 265px;
-  margin: 10px 0 0 0;
+  margin: 10px 0 10px 0;
   border: 2px solid #CCCCCC;
   background-color: #EFEFEF;
   padding: 0px;
