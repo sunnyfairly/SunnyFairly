@@ -42,7 +42,7 @@ body{
 
   /*Row of Buttons*/
   .boxrow {
-    width: inherit;
+    width: 100%;
     height: 50px;
     background-color: black;
     color: white;
@@ -51,7 +51,7 @@ body{
 
 }
   .meat{
-  	width: 1000px;
+  	width: 900px;
   	margin: auto;
     padding: 0;
     font-size: 12pt;
@@ -68,7 +68,7 @@ body{
     background-size: 300px 175px;
   color: yellow;
   height: 120px;
-  width: 245px;
+  width: 205px;
   margin: 0 25px 0 0;
   border: 2px solid #CCCCCC;
   background-color: #EFEFEF;
@@ -86,8 +86,8 @@ body{
     background-size: 300px 175px;
     color: blue;
   height: 120px;
-  width: 245px;
-  margin: 0 25px 0 ;
+  width: 205px;
+  margin: 0 30px 0 ;
   border: 2px solid #CCCCCC;
   background-color: #EFEFEF;
   padding: 25px;
@@ -104,20 +104,20 @@ body{
     background-size: 300px 175px;
   color: red;  
   height: 120px;
-  width: 245px;
+  width: 205px;
   margin-top: 0;
-  margin-left: 0; 
+  margin-left: 25px; 
   margin-right: 0;
   border: 2px solid #CCCCCC;
   padding: 25px;
   font-size: 8pt;
   overflow: auto;
-  float: right;
+  float: left;
 }
 
 /*This button needs fill the entire box, but is still just a wee button. need to figure that out*/
 a.button2 {
-  margin: 12px 50px 12px 60px;
+  margin: 12px 40px 12px 50px;
   background-color: transparent;
   border: 3px white;
   color: white;
@@ -126,8 +126,8 @@ a.button2 {
   float: left;
 }
 a.button2.last {
-  margin-right: 60px;
-  float: right;
+  margin-right: 50px;
+  float: left;
 }
 
 /*Footer Only*/
