@@ -31,10 +31,22 @@ body{
   padding: 0;
 }
 .h1 {
-  height: 260px;
-  width: 240px;
-  margin: 20px 0px 10px 10px;
-  padding: 30px 30px 0 130px;
+  text-align: center;
+  height: 120px;
+  width: 320px;
+  margin: 10px 0px 10px 10px;
+  padding: 30px 30px 10px 30px;
+  float: left;
+  overflow: auto;
+  font-size: 16pt;
+}
+
+.h1.2 {
+  text-align: center;
+  height: 120px;
+  width: 220px;
+  margin: 10px 0px 10px 10px;
+  padding: 30px 30px 10px 30px;
   float: left;
   overflow: auto;
   font-size: 16pt;
@@ -70,7 +82,7 @@ body{
   height: 120px;
   width: 205px;
   margin: 0 25px 0 0;
-  border: 2px solid #CCCCCC;
+  border: 2px solid #A52A2A;
   background-color: #EFEFEF;
   padding: 25px;
   font-size: 12pt;
@@ -87,8 +99,8 @@ body{
     color: blue;
   height: 120px;
   width: 205px;
-  margin: 0 30px 0 ;
-  border: 2px solid #CCCCCC;
+  margin: 0 35px 0 ;
+  border: 2px solid #A52A2A;
   background-color: #EFEFEF;
   padding: 25px;
   font-size: 8pt;
@@ -106,9 +118,9 @@ body{
   height: 120px;
   width: 205px;
   margin-top: 0;
-  margin-left: 25px; 
-  margin-right: 0;
-  border: 2px solid #CCCCCC;
+  margin-left: 27px; 
+  margin-right: 0px;
+  border: 2px solid #A52A2A;
   padding: 25px;
   font-size: 8pt;
   overflow: auto;
