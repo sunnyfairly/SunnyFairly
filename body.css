@@ -1,4 +1,4 @@
-/*Header only!!*/
+/*Header only*/
 .header {
     background-image: url('http://blogs.channel4.com/liam-dutton-on-weather/wp-content/uploads/sites/27/2015/05/sun_sky_g_wp.jpg');
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@ body{
   font-size: 16pt;
 }
 
-  /*Row of Buttons*/
+/*Row of Buttons*/
   .boxrow {
     width: 100%;
     background-color: black;
@@ -86,7 +86,7 @@ body{
   font-size: 12pt;
   overflow: auto;
   float: left;
-}
+  }
 
 .box2 {
     background-image: url('images/Blackandwhitegroup.jpg');
@@ -105,7 +105,7 @@ body{
   overflow: auto;
   float: left;
 }
-
+  
 .box3 {
     background-image: url('images/staffconcert.jpg');
     background-repeat: no-repeat;
@@ -127,7 +127,7 @@ body{
 
 /*These are the buttons for the menu row*/
 a.button2 {
-  margin: 12px 40px 12px 50px;
+  margin: 12px 45px 12px 50px;
   background-color: transparent;
   border: 3px white;
   color: white;
@@ -136,13 +136,13 @@ a.button2 {
   float: left;
 }
 a.button2.last {
-  margin-right: 50px;
+  margin-right: 45px;
   float: left;
 }
 
 /*Hover over menu*/
 .button2:hover {
-  margin: 9px 37px 9px 47px;
+  margin: 9px 42px 9px 47px;
   border: 3px solid yellow;
   background-color: blue;
   color: yellow;
