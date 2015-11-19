@@ -55,10 +55,8 @@ body{
   /*Row of Buttons*/
   .boxrow {
     width: 100%;
-    height: 50px;
     background-color: black;
     color: white;
-    margin: auto;
     overflow: auto;
 
 }
@@ -127,7 +125,7 @@ body{
   float: left;
 }
 
-/*This button needs fill the entire box, but is still just a wee button. need to figure that out*/
+/*These are the buttons for the menu row*/
 a.button2 {
   margin: 12px 40px 12px 50px;
   background-color: transparent;
@@ -140,6 +138,14 @@ a.button2 {
 a.button2.last {
   margin-right: 50px;
   float: left;
+}
+
+/*Hover over menu*/
+.button2:hover {
+  margin: 9px 37px 9px 47px;
+  border: 3px solid yellow;
+  background-color: blue;
+  color: yellow;
 }
 
 /*Footer Only*/
@@ -155,10 +161,10 @@ footer {
     background-position: center;
     background-size: 100% 150px;
     background-color: #CCCCCC;
-    height: 50px;
+    height: 100px;
+    width: 100%;
     color: white;
-  margin: 0px;  
-  padding: 80px 0px 0px 1280px;
+  margin: 0px;
   font-size: 2pt;
   float: right;
   overflow: auto;

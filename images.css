@@ -9,6 +9,10 @@
   float: left;
   overflow: auto;
 }
+    .sunnyleft1:hover {
+      border: 2px solid red;
+    }
+
 .sunnyNAM1 {
   border: 3px solid #A52A2A;
   height: 240px;
@@ -17,6 +21,7 @@
   float: right;
   overflow: auto;
 }
+
 .ADlogo1 {
   border: 4px solid black;
   height: 220px;
@@ -25,6 +30,10 @@
   float: left;
   overflow: auto;
 }
+    .ADlogo1:hover {
+      border: 4px solid white;
+    }
+
 .sunnybottles1 {
   border: 3px solid #0000FF;
   height: 220px;
@@ -33,6 +42,8 @@
   float: right;
   overflow: auto;
 }
+
+
 
 /* About Page: */
 .sunnyNAM {
@@ -69,6 +80,7 @@
 }
 
 
+
 /* Glass Page: */
 .picsrow1 {
   height: 220px;
@@ -80,6 +92,7 @@
   overflow: auto;
   float: left;
 }
+
 .picsrow2{
   height: 220px;
   width: 265px;
@@ -90,6 +103,7 @@
   overflow: auto;
   float: left;
 }
+
 .picsrow3 {
   height: 220px;
   width: 265px;
@@ -100,6 +114,7 @@
   overflow: auto;
   float: right;
 }
+
 .h2 {
 	text-align: center;
 	margin: 20px 100px;
