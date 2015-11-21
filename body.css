@@ -1,171 +1,173 @@
 /*Header only*/
-.header {
-    background-image: url('http://blogs.channel4.com/liam-dutton-on-weather/wp-content/uploads/sites/27/2015/05/sun_sky_g_wp.jpg');
-    background-repeat: no-repeat;
-    background-attachment: inherit;
-    background-position: center;
-    background-size: 100% 200px;
-    background-color: #CCCCCC;
-  border-bottom: 3px;
-  border-color: #0000FF;
-  height: 100px;
-  padding: 20px 0 2px 140px;
-  font-size: 20pt;
-  color: yellow;
-  float: bottom;
-}
-.def{
-  padding-left: 50px;
-  font-size: 12px;
-}
+    .header {
+        background-image: url('http://blogs.channel4.com/liam-dutton-on-weather/wp-content/uploads/sites/27/2015/05/sun_sky_g_wp.jpg');
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-position: center;
+        background-size: 100% 200px;
+        background-color: #CCCCCC;
+      border-bottom: 3px;
+      border-color: #0000FF;
+      height: 100px;
+      padding: 20px 0 2px 140px;
+      font-size: 20pt;
+      color: yellow;
+      float: bottom;
+    }
+    .def{
+      padding-left: 50px;
+      font-size: 12px;
+    }
 
 
 
 /*Body Text and Boxes*/
-body{
-  width: 100%;
-  height: 100%;
-  max-height: 100%;
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-.h1 {
-  text-align: center;
-  height: 120px;
-  width: 320px;
-  margin: 10px 40px;
-  padding: 30px 10px 10px 10px;
-  float: left;
-  overflow: auto;
-  font-size: 16pt;
-}
+    body{
+      width: 100%;
+      height: 100%;
+      max-height: 100%;
+      border: 0;
+      margin: 0;
+      padding: 0;
+    }
+    .h1 {
+      text-align: center;
+      height: 120px;
+      width: 320px;
+      margin: 10px 40px;
+      padding: 30px 10px 10px 10px;
+      float: left;
+      overflow: auto;
+      font-size: 16pt;
+    }
 
-.h1-2 {
-  text-align: center;
-  height: 120px;
-  width: 220px;
-  margin: 10px 0px 10px 10px;
-  padding: 30px 30px 10px 30px;
-  float: left;
-  overflow: auto;
-  font-size: 16pt;
-}
+    .h1-2 {
+      text-align: center;
+      height: 120px;
+      width: 220px;
+      margin: 10px 0px 10px 10px;
+      padding: 30px 30px 10px 30px;
+      float: left;
+      overflow: auto;
+      font-size: 16pt;
+    }
 
-/*Row of Buttons*/
-  .boxrow {
-    width: 100%;
-    background-color: black;
-    color: white;
-    overflow: auto;
+    /*Row of Buttons*/
+      .boxrow {
+        width: 100%;
+        background-color: black;
+        color: white;
+        overflow: auto;
 
-}
-  .meat{
-  	width: 900px;
-  	margin: auto;
-    padding: 0;
-    font-size: 12pt;
-    overflow: auto;
-}
+    }
+      .meat{
+      	width: 900px;
+      	margin: auto;
+        padding: 0;
+        font-size: 12pt;
+        overflow: auto;
+    }
 
-
-/*some pics of mine*/
-.box1 {
-    background-image: url('images/SunnyRekerrds.jpg');
-    background-repeat: no-repeat;
-    background-attachment: inherit;
-    background-position: right;
-    background-size: 300px 175px;
-  color: yellow;
-  height: 120px;
-  width: 205px;
-  margin: 0 25px 0 0;
-  border: 2px solid #A52A2A;
-  background-color: #EFEFEF;
-  padding: 25px;
-  font-size: 12pt;
-  overflow: auto;
-  float: left;
-  }
-
-.box2 {
-    background-image: url('images/Blackandwhitegroup.jpg');
-    background-repeat: no-repeat;
-    background-attachment: inherit;
-    background-position: center;
-    background-size: 300px 175px;
-    color: blue;
-  height: 120px;
-  width: 205px;
-  margin: 0 35px 0 ;
-  border: 2px solid #A52A2A;
-  background-color: #EFEFEF;
-  padding: 25px;
-  font-size: 8pt;
-  overflow: auto;
-  float: left;
-}
-  
-.box3 {
-    background-image: url('images/staffconcert.jpg');
-    background-repeat: no-repeat;
-    background-attachment: inherit;
-    background-position: right;
-    background-size: 300px 175px;
-  color: red;  
-  height: 120px;
-  width: 205px;
-  margin-top: 0;
-  margin-left: 27px; 
-  margin-right: 0px;
-  border: 2px solid #A52A2A;
-  padding: 25px;
-  font-size: 8pt;
-  overflow: auto;
-  float: left;
-}
 
 /*These are the buttons for the menu row*/
-a.button2 {
-  margin: 12px 45px 12px 50px;
-  background-color: transparent;
-  border: 3px white;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  float: left;
-}
-a.button2.last {
-  margin-right: 45px;
-  float: left;
-}
+      a.button2 {
+        margin: 12px 45px 12px 50px;
+        background-color: transparent;
+        border: 3px white;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        float: left;
+      }
+      a.button2.last {
+        margin-right: 45px;
+        float: left;
+      }
 
-/*Hover over menu*/
-.button2:hover {
-  margin: 9px 42px 9px 47px;
-  border: 3px solid yellow;
-  background-color: blue;
-  color: yellow;
-}
+      /*Hover over menu*/
+      .button2:hover {
+        margin: 9px 42px 9px 4p7x;
+        border: 3px solid yellow;
+        background-color: blue;
+        color: yellow;
+      }
+
+/*some pics of mine*/
+    .box1 {
+        background-image: url('images/SunnyRekerrds.jpg');
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-position: right;
+        background-size: 300px 175px;
+      color: yellow;
+      height: 120px;
+      width: 205px;
+      margin: 0 25px 0 0;
+      border: 2px solid #A52A2A;
+      background-color: #EFEFEF;
+      padding: 25px;
+      font-size: 12pt;
+      overflow: auto;
+      float: left;
+      }
+
+    .box2 {
+        background-image: url('images/Blackandwhitegroup.jpg');
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-position: center;
+        background-size: 300px 175px;
+        color: blue;
+      height: 120px;
+      width: 205px;
+      margin: 0 35px 0 ;
+      border: 2px solid #A52A2A;
+      background-color: #EFEFEF;
+      padding: 25px;
+      font-size: 8pt;
+      overflow: auto;
+      float: left;
+    }
+      
+    .box3 {
+        background-image: url('images/staffconcert.jpg');
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-position: right;
+        background-size: 300px 175px;
+      color: red;  
+      height: 120px;
+      width: 205px;
+      margin-top: 0;
+      margin-left: 27px; 
+      margin-right: 0px;
+      border: 2px solid #A52A2A;
+      padding: 25px;
+      font-size: 8pt;
+      overflow: auto;
+      float: left;
+    }
+
+
 
 /*Footer Only*/
-footer {
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
-}
-.footer {
-    background-image: url('images/sunset.jpg');
-    background-repeat: no-repeat;
-    background-attachment: inherit;
-    background-position: center;
-    background-size: 100% 150px;
-    background-color: #CCCCCC;
-    height: 100px;
-    width: 100%;
-    color: white;
-  margin: 0px;
-  font-size: 2pt;
-  float: right;
-  overflow: auto;
-}
+      footer {
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+      }
+      .footer {
+          background-image: url('images/sunset.jpg');
+          background-repeat: no-repeat;
+          background-attachment: inherit;
+          background-position: center;
+          background-size: 100% 150px;
+          background-color: #CCCCCC;
+          height: 100px;
+          width: 100%;
+          color: white;
+        margin: 0px;
+        font-size: 2pt;
+        float: right;
+        overflow: auto;
+      }
